@@ -22,7 +22,7 @@ $ bundle install
 bundle exec jekyll serve
 ```
 
-After that, open your browser to ``127.0.0.1:4000`` and you will find it there.
+After that, open your browser to ``127.0.0.1:4000/my-friends`` and you will find it there.
 
 ## Write post
 Write anything you like in sub folder /_post
