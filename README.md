@@ -1,39 +1,26 @@
-## Welcome to _my-friends_ page
+## About
+This is blog of my-friends
+- Web site: [phapli.github.io/my-friends](phapli.github.io/my-friends)
 
-That is a github pages to share some technical experience.
-
-You can use the [editor on GitHub](https://github.com/phapli/my-friends/edit/master/README.md) to maintain and preview the content for this website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Setup & usage
+1. If you don't have Ruby installed, install [Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/downloads/).
+2. Install [jekyll](https://jekyllrb.com/).
+3. Clone this source from github:
+```bash
+$ git clone https://github.com/phapli/my-friends.git
+```
+4. Change directories to the new repository you cloned
+```bash
+$ cd my-friends
+```
+5. Install needed gem
+```bash
+$ bundle install
+```
+6. Run this page locally
+```bash
+bundle exec jekyll serve
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+After that, open your browser to ``127.0.0.1:4000`` and you will find it there.
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/phapli/my-friends/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
